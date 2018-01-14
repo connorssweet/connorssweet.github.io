@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connor Sweet</title>
+    <meta charset="UTF-8">
+    <meta name-"viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#330e54;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1>Connor Sweet</h1>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#carousel">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#volunteering">Volunteering</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="accent"></div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <!--Indicator number specified here-->
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!--Active item-->
+        <div class="item active">
+          <img src="images/sweet_carousel0.png">
+          <div class="carousel-caption">
+              <h1>Welcome to my Web Portfolio</h1>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <button type="button" class="btn btn-default" onclick="location.href='#resume'">View my Resume</button>
+            </div>
+          </div>
+          <!--Other items-->
+          <div class="item">
+            <img src="images/sweet_carousel1.jpg">
+          </div>
+
+          <div class="item">
+            <img src="images/sweet_carousel2.jpg">
+          </div>
+
+          <div class="item">
+            <img src="images/sweet_carousel3.jpg">
+          </div>
+        </div>
+        <!--Glyph controls-->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="accent"></div>
+      <div id="accent2"></div>
+      <!--About section-->
+      <div class="container" id="about">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About</h2>
+        <p>Hello! I am Connor Sweet, a 1B Mechatronics Engineering student at
+          the University of Waterloo. I am heavily interested in robotics,
+          machine learning, and automation.</p>
+        <p>I am also an avid volunteer in the Waterloo region, currently working
+           under the honourable Bardish Chagger to improve the city's ecological
+           footprint.</p>
+        <p>When I'm not busy, I will often be found producing and performing
+          electronic music, or putting a new idea into code.</p>
+        <p>I am currently seeking a four month Co-op placement, from May to
+           August.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/sweet_about.jpg" class="img-responsive">
+      </div>
+    </div>
+    </div>
+
+    <!--Accents-->
+    <div id="accent"></div>
+    <div id="accent2"></div>
+
+    <!--Projects section-->
+    <div class="container" id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_robotcmajor.gif" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>RobotCMajor - Guitar Playing Robot</h2>
+          <p>As a project for the end of my 1A Mechatronics term, I worked as part of a
+            group of four to design, create, program and test a robot which is able to
+            plot and strum power chords on an acoustic guitar.</p>
+            <h4><a href="#hiddenproj0" data-toggle="collapse" id="hide">Click here to
+              learn more</a></h4>
+          <div id="hiddenproj0" class="collapse">
+            <p>I took up a heavy role in the programming aspect of this robot, using
+              multiple threads to optimize play time and improve sound quality. This
+              also included writing driver tasks for each function created, to properly
+              test the functionality and efficiency of the code.</p>
+            <p>I also helped design the chassis for the robot, including a strumming arm
+              and a gantry system allowing for 3 dimensional movement.Materials used for
+              construction included wood, aluminum, and various Lego Mindstorms and
+              Tetrix Robotics components.</p>
+            <p>The robot was successfully able to plot the chords to and play "Smoke on
+              the Water" by Deep Purple and "Free Fallin'" by Tom Petty by the project
+              deadline. Both songs were sufficiently recognizable.
+            </p>
+            <p>RobotCMajor recieved a <strong>100%</strong> score in design and
+            implementation.</p>
+            <p>The code written during this project, including the test tasks, are
+            all available on my GitHub account.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_zerorobot.gif" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Line Following Music Player - Zero Robotics Competition</h2>
+          <p>As a challenge presented to the UW Robotics Team, I worked alongside 3
+            other students to design and develop a line following electromechanical
+            system which outputs various frequencies based on the shade on a line
+            interpreted by a colour sensor.</p>
+          <h4><a href="#hiddenproj1" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj1" class="collapse">
+            <p>I focused on the electrical aspect of this project, fabricating a circuit
+              layout on an aluminum chassis to properly distribute the weight of the
+              system.</p>
+            <p>I implemented an Arduino-powered circuit consisting of an R2R bridge and
+              motor controls.
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_frc.gif" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>FRC Competition Entry - UW Robot in 3 Days</h2>
+          <p>I was accepted into Waterloo's Robot in 3 Days team, where 20 engineers
+            came together to construct an entry for this year's First Robotics
+            Competition under 72 hours.</p>
+          <h4><a href="#hiddenproj2" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj2" class="collapse">
+            <p>On this team, I focused on software development, coding subsystems
+              for the robot's intake and climbing mechanisms. I also helped map the
+              control of the many subsystems to buttons and axes on a remote
+              control.</p>
+            <p>I also contributed to the mechanical design of the project, by
+              fabricating the claw mechanism allowing the robot to latch onto
+              overhanging bars and elevate itself. I machined the components for
+              an aluminum claw, which was connected to a rope wound around a winch
+              in order to adequately elevate the robot.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_trondays.gif" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Robot Arm - Tron Days Competition</h2>
+          <p>The Tron Days Competition asked Mechatronics students to develop a
+            remote-controlled robot arm capable of displacing objects across a
+            pegboard. By taking the necessary steps to optimize construction we
+            were able to achieve a score of <strong>90%</strong> on arm design and
+            efficiency.</p>
+          <h4><a href="#hiddenproj3" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj3" class="collapse">
+            <p>The team was given Tetrix Robotics pieces to contruct the robot
+              frame. I focused on developing a pulley system to assist in arm
+              elevation, in order to counteract the heavy weight of the last arm
+              ligament.</p>
+            <p>I also wrote a program in C++ to optimize the angle and positioning
+              of arm ligaments for speed and distance. This code is available on
+              my GitHub account.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_htn.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Charity Navigation - Hack the North</h2>
+          <p>During my time at Hack the North, I collaborated with three other
+            programmers to develop a charity recommendation site. We are currently
+            reviewing and updating the service for an official release.</p>
+          <h4><a href="#hiddenproj4" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj4" class="collapse">
+            <p>My role in the project was primarily back-end development. I took
+              time to experiement with the Google Firebase API and the Twitter API,
+              developing a data system of charitable foundations and trending topics.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_mediaplayer.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Media Player</h2>
+          <p>I collaborated with two other students to develop this media
+            application designed to play .mp3 and .wav files from a file
+            directory.</p>
+          <p>The media application was constructed using Java and the JLayer
+            library. It was programmed using multiple threads to allow for
+            seamless audio playback while the GUI is in use.</p>
+          <h4><a href="#hiddenproj5" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj5" class="collapse">
+            <p>The project currently allows the user to select a song from a file
+              directory, generate a randomized shuffle queue in the directory, go to
+              the previous or next song, and display the time the song has been
+              played.</p>
+            <p>Next steps for the project include the ability for users to skip to
+              specific parts of each song, and implementing controls for volume and
+              speed.</p>
+            <p>Code for the media player is available on my GitHub account.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_risk.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Game of Risk</h2>
+          <p>As a summative project exiting my Grade 12 computer science class, I
+            was asked to make a game using Java, implementing the object-oriented
+            programming concepts we were taught. My goal was to create a clone of
+            Hasbro's popular Risk board game.</p>
+          <h4><a href="#hiddenproj6" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj6" class="collapse">
+            <p>Mechanics of the game were controlled through the implementation of a
+              state machine, and multiple threads were used to optimize play time.</p>
+            <p>The game allows 2 to 6 human players to play. However, the user may
+              also play with computer players, which have been taught to position
+              troops and attack in ways which incentivise territory gain.</p>
+            <p>The code for my Game of Risk is available on my GitHub account.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_brick.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Brick Breaker - Arkanoid Clone</h2>
+          <p>When I first began experimenting with graphics in Java, I created a
+            clone of the classic Arkanoid brick breaking game.</p>
+          <h4><a href="#hiddenproj7" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj7" class="collapse">
+            <p>The objective of the game is to break every brick on the screen using
+              a ball of which is in constant motion. By repoisitioning a horizontal
+              paddle, the player can angle the ball to collide with some of the
+              bricks.</p>
+            <p>The player's score is tracked and displayed at the end of the
+              game.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sweet_rover.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Mars Rover - University Rover Competition</h2>
+          <p>Every year the University of Waterloo competes for a position in the
+            University Rover competition in Utah, where 30 teams use their rovers
+            to attempt to recover objects in a desert landscape.</p>
+          <h4><a href="#hiddenproj8" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj8" class="collapse">
+            <p>This year, I am part of the software team, specifically working on
+              autonomy. Using ROS, I am developing path-finding algorithms to be
+              used synchronously with computer vision to locate objects when given
+              a relative distance to a GPS coordinate.<p>
+            <p>This project is currently in development and updates will be posted
+              once more progress has been made.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+    </div>
+
+    <!--Accents-->
+    <div id="accent"></div>
+    <div id="accent2"></div>
+
+    <!--Education section-->
+    <div class="container" id="education">
+      <h2>Education</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>University of Waterloo</h4>
+          <p>Candidate for Bachelor of Applied Sciences, class of 2022</p>
+          <p>Enrolled in Honours Mechatronics Engineering, term 1B</p>
+          <h4><a href="#hiddenedu0" data-toggle="collapse"  id="hide">Learn more</a></h4>
+          <div id="hiddenedu0" class="collapse">
+            <p>Elected as Mechatronics Class Representative for the 1A term</p>
+            <p>Member of the Waterloo Robotics Team
+              <p>Received certification from hands-on and online machine shop training
+                to operate the band saw, drill press, milling machine and lathe</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="images/sweet_uw.png" class="img-responsive">
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Bluevale Collegiate Institute</h4>
+        <p>Received High School Diploma, Graduated with Honours</p>
+        <p>Established and led several initiatives, including Student Council</p>
+        <h4><a href="#hiddenedu1" data-toggle="collapse"  id="hide">Learn more</a></h4>
+        <div id="hiddenedu1" class="collapse">
+          <p>Awarded Grad Club "Knight of all Knights" award and Lakeshore Village
+            Optimists Club award for school contributions</p>
+          <p>School nominee for the Loran and Schulich Leader Scholarships</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="images/sweet_bci.png" class="img-responsive">
+      </div>
+    </div>
+    </div>
+
+    <!--Accents-->
+    <div id="accent"></div>
+    <div id="accent2"></div>
+
+    <!--Volunteering Section-->
+    <div class="container" id="volunteering">
+      <h2>Volunteering and Extracurriculars</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Bluevale Collegiate Student Council</h2>
+          <p>I served as Co-President of my high school student council, as well as
+            the Chair of the Media Production committee and Social Coordinator.</p>
+          <p>I also acted as a student activities liaison within Bluevale
+            Collegiate's Parent Council, and attended provincial and national
+            leadership conferences on the school's behalf.</p>
+          <h4><a href="#hiddenvol0" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenvol0" class="collapse" >
+            <p>As one of two Co-Presidents elected by the school's student body, I
+              oversaw and managed the various divisions of the council, organized
+              and facilitated school-wide events and presented speeches on important
+              occasions, such as orientation day and the graduation ceremony.
+              By leading a team of 30 students through interactive seminars, and
+              constructing detailed plans for event preparation each day, I was
+              able to adequately develop large scale events for the student body.
+            </p>
+            <p>As the Chair of the Media Production committee, I was in charge of
+              producing a wide variety of multimedia advertisements for school
+              events, such as posters, videos, and tickets. I also ran lights and
+              sound for majority of school events.</p>
+            <p>As a Social Coordinator, I organized brief events to host on
+              important occasions, such as holiday weeks, during school hours.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_studentcouncil.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Bardish Chagger's Waterloo Riding Youth Council</h2>
+          <p>I was approved entry into the Regional Youth Council in January 2017
+            and work with the other members to advocate for the youth voices of the
+            Waterloo region.</p>
+          <p>Our work is delegated into 3 main subtopics: the Youth
+            Initiative, Indigenous Rights, and Regional Sustainability.<p>
+          <h4><a href="#hiddenvol1" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenvol1" class="collapse">
+            <p>Currently, I have taken a heavy role in the field of Sustainability,
+              directing an initiative to advocate for free busing for high school
+              students in the Waterloo region. To accomplish this I have met with
+              representatives from the Grand River Transit, and sat down with
+              notable figures in the region to determine the optimal way to
+              incentivise youth to utilize the bus system and encourage students
+              to be more aware of their ecological footprint.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_youthcouncil.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>WRDSB Student Senate</h2>
+          <p>I was a student senator in the Waterloo Region District School Board.
+            I attended monthly meetings to discuss prevalent issues pertaining to
+            youth in the region, such as mental well-being, and school budget
+            allocation.</p>
+          <h4><a href="#hiddenvol2" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenvol2" class="collapse">
+            <p>As a representative sent by Bluevale Collegiate, I provided input on
+              the school's behalf on means of improving schoolboard communication
+              with students. I also networked within my school to raise awareness
+              for the regional school board's concerns.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_senate.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>KW Federal Provincial Conference</h2>
+          <p>"Fed-Prov" allows high schools in the Kitchener Waterloo region to assume
+            the role of a Province, Territory, or interest group in Canada. They
+            meet at the University of Waterloo annually to discuss prevalent issues
+            facing Canadians today from our role's perspective. Each year I acted in
+            a different position, and have served in significant leadership
+            positions for three of my years.</p>
+          <p>For my work as the leader of the Canadian Taxpayer Federation in the
+            50th annual conference I recieved the <strong>Outstanding Delegate
+            Award</strong>. In the following year, as the Premier of Saskatchewan,
+            I recieved the <strong>John Boulden Award for Outstanding Premier
+            </strong>.</p>
+          <h4><a href="#hiddenvol3" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenvol3" class="collapse">
+            <p>In my first year on FedProv, I participated in the Indigenous Affairs
+              debate as part of the delegation of Nova Scotia. The debate was
+              primarily focused on the missing and murdered indigenous women inquiry.</p>
+            <p>On my second year, I served as the head of Public Relations for the
+              delegation of Alberta. Here, I collaborated with local press groups
+              by writing articles from the perspective of the Albertan government.</p>
+            <p>During my third conference, I was selected to lead a special interest
+              group, known as the Canadian Taxpayer Federation. My role was to
+              advocate against governent overspending and poor budgeting.
+              We were not given much time in the spotlight so we needed to find
+              unique ways of publicizing our opinions. We succeeded through managing
+              an active social media page, developing multimedia advertisement, and
+              delivering public speeches. </p>
+            <p>In my final conference, I was selected to represent the Premier of
+              Saskatchewan, and therefore lead the Saskatchewan delegation. I was
+              required to organzie my team of 30 students into various debate
+              groups, draft position papers on behalf of my delegation, and
+              prepare each delegate for their upcoming debate. I also coordinated
+              a social media page and delivered opening and closing speeches
+              during the conference. I debated within the First Ministers meeting,
+              where prevalent issues such as Reform of the Anti-terrorism act,
+              Formalization of the Federal Spending Power, developing a Transparent
+              Framework for Review of Future Energy Projects, and Electoral Reform
+              were discussed.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="images/sweet_fedprov.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>KW Model United Nations</h2>
+          <p>Representing the United Kingdom of Great Britain and Northern Ireland,
+            I debated the controversial issues of police brutality and the refugee
+            crisis alongside other youth in the region. I helped reach adequate
+            resolutions benefitting my delegation and won the <strong>Outstanding
+            Delegate Award</strong> for my actions.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_modelun.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Civics Club - Co-Founder</h2>
+          <p>I co-founded this club as a means of promoting political engagement in
+            the student body. In the club, a game of Civic Mirror was played, an
+            online and in-class simulation where students are given a hidden
+            political agenda and must accomplish their goals. I received a lot of
+            positive feedback from club members, saying the club has encouraged them
+            to remain politically aware.</p>
+          <p>I am happy to say that the Civics club has outlived my time at
+            high school and is currently being run by other successors at
+            Bluevale Collegiate.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/sweet_civics.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Bluevale's Grads as Gophers</h2>
+          <p>Grads as Gophers is a Bluevale tradition where a group of graduates
+            are auctioned off as servants to grade nines for a week as a means of
+            raising money for prom. The role entailed the development, choreography
+            and performance of a musical number during the auctioning, and
+            performing daily tasks for the grade nines, such as carrying them to
+            class, buying them lunch, and helping them with homework.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_gophers.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Local Performer and Musician</h2>
+          <p>I take vocal lessons at Russell Music Studios, where I study music
+            theory and singing techniques. As of last year I have regularly performed at
+            coffee house shows hosted by the studio. I have sang and played
+            guitar, performing songs ranging from jazz, punk rock, and pop.</p>
+          <p>I have also performed in the annual Next Up! Showcase by IdeasExchange,
+            and have been invited to perform at the Cambrdige City Hall for
+            Person's Day.</p>
+          <p>I also regularly produce electronic music which I put on
+            <a href="https://www.youtube.com/channel/UCCSgRAdM8rYguBVuFUCGPMQ"
+            target="_blank">YouTube</a> and <a
+            href="https://soundcloud.com/connorsweetmusic"
+            target="_blank">SoundCloud</a>. Lately I have begun working on original
+            songs containing lyrics.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_music.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Bluevale Mock Trial Club</h2>
+          <p>As a lawyer on the Mock Trial team, I represented clients in a court
+            simulation as both a Crown and Defense attorney. This required me to
+            research and collect evidence for both sides of the prepared case, while
+            developing lines of questioning for my witnesses. Our team won the regional
+            Mock Trial competition and participated in the Greater Toronto Area Mock
+            Trial Competition.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/sweet_mocktrial.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div id="accent"></div>
+    </div>
+
+    <!--Accents-->
+    <div id="accent"></div>
+    <div id="accent2"></div>
+
+    <div class="container" id="resume">
+      <h2>Resume</h2>
+      <iframe src="sweet_resume.pdf" width="840" height="1127" seamless></iframe>
+    </div>
+
+    <div id="accent"></div>
+    <footer class="container-fluid text-center" id="contact">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact<h2>
+          <h4>Phone: 226-868-3045</h4>
+          <h4>Email: <a href="mailto:connor.s.sweet@gmail.com">connor.s.sweet@gmail.com</a></h4>
+          <h4>School Email: <a href="mailto:cssweet@edu.uwaterloo.ca">cssweet@edu.uwaterloo.ca</a></h4>
+        </div>
+        <div class="col-md-6">
+          <h2>Connect</h2>
+          <br>
+          <a href="https://github.com/connorssweet" target="_blank" class="fa fa-github fa-3x"></a>
+          <a href="https://linkedin.com/in/connorsweet" target="_blank" class="fa fa-linkedin fa-3x"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
