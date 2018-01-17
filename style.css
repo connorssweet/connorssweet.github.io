@@ -104,6 +104,11 @@ footer a:hover{
   text-decoration:none;
 }
 
+#resumemobile{
+  visibility: hidden;
+  display:none;
+}
+
 @media (max-width:1200px){
   body{
     display:block;
@@ -135,9 +140,14 @@ footer a:hover{
       display: none;
   }
 
-  #accentresume, #accent2resume{
+  #accentresume, #accent2resume, #resumeweb{
     visibility: hidden;
     clear:both;
     display:none;
+  }
+
+  #resumemobile{
+    visibility: visible;
+    display: inline;
   }
 }
