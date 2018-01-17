@@ -57,12 +57,12 @@ body{
   margin:1% auto;
 }
 
-#accent{
+#accent, #accentresume{
   padding:10px;
   background-color:#21013f;
 }
 
-#accent2{
+#accent2, #accent2resume{
   padding:20px;
   background-color:#330E54;
 }
@@ -124,5 +124,20 @@ footer a:hover{
   .fa{
     font-size:20px;
     padding:10px;
+  }
+
+  #resume{
+    visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+  }
+
+  #accentresume, #accent2resume{
+    visibility: hidden;
+    clear:both;
+    display:none;
   }
 }
