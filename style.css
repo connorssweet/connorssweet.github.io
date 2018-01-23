@@ -57,12 +57,12 @@ body{
   margin:1% auto;
 }
 
-#accent, #accentresume{
+#accent{
   padding:10px;
   background-color:#21013f;
 }
 
-#accent2, #accent2resume{
+#accent2{
   padding:20px;
   background-color:#330E54;
 }
@@ -104,11 +104,6 @@ footer a:hover{
   text-decoration:none;
 }
 
-#resumemobile{
-  visibility: hidden;
-  display:none;
-}
-
 @media (max-width:1200px){
   body{
     display:block;
@@ -129,25 +124,5 @@ footer a:hover{
   .fa{
     font-size:20px;
     padding:10px;
-  }
-
-  #resume{
-    visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
-  }
-
-  #accentresume, #accent2resume, #resumeweb{
-    visibility: hidden;
-    clear:both;
-    display:none;
-  }
-
-  #resumemobile{
-    visibility: visible;
-    display: inline;
   }
 }
