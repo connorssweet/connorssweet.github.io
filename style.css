@@ -12,7 +12,7 @@ body{
 
 .navbar-inverse{
   color:#FFFFFF;
-  background-color:#330e54;
+  background-color:#0F6688;
 }
 
 .navbar-inverse .navbar-nav li a{
@@ -37,13 +37,13 @@ body{
   text-decoration:none;
   color:#FFFFFF;
   padding:12px 22px;
-  background-color: #330E54;
+  background-color: #0F6688;
   font-size:18px;
   border:2px solid #FFFFFF;
 }
 
 .carousel-inner h1{
-  background-color:#21013f;
+  background-color:#00425C;
 }
 
 .container{
@@ -59,16 +59,16 @@ body{
 
 #accent{
   padding:10px;
-  background-color:#21013f;
+  background-color:#00425C;
 }
 
 #accent2{
   padding:20px;
-  background-color:#330E54;
+  background-color:#0F6688;
 }
 
 #hide{
-  color:#4a236e;
+  color:#17739A;
 }
 
 iframe{
@@ -78,7 +78,7 @@ iframe{
 
 footer{
   width:100%;
-  background-color:#330e54;
+  background-color:#0F6688;
   padding:3%;
   color:#FFFFFF;
 }
