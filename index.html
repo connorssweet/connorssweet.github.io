@@ -23,7 +23,7 @@
 
   <body>
     <!--Nav bar-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#330e54;">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#0F6688;">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -39,6 +39,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#employment">Employment</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#music">Music</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#volunteering">Volunteering</a></li>
             <li><a href="sweet_resume.pdf" target="_blank">Resume</a></li>
@@ -62,7 +63,7 @@
       <div class="carousel-inner" role="listbox">
         <!--Active item-->
         <div class="item active">
-          <img src="images/sweet_carousel0.png">
+          <img src="images/carousel/sweet_carousel0.png">
           <div class="carousel-caption">
               <h1>Welcome to my Online Portfolio</h1>
               <br></br>
@@ -76,15 +77,15 @@
           </div>
           <!--Other items-->
           <div class="item">
-            <img src="images/sweet_carousel1.jpg">
+            <img src="images/carousel/sweet_carousel1.jpg">
           </div>
 
           <div class="item">
-            <img src="images/sweet_carousel2.jpg">
+            <img src="images/carousel/sweet_carousel2.jpg">
           </div>
 
           <div class="item">
-            <img src="images/sweet_carousel3.jpg">
+            <img src="images/carousel/sweet_carousel3.jpg">
           </div>
         </div>
         <!--Glyph controls-->
@@ -106,20 +107,19 @@
         <div class="row">
           <div class="col-md-6">
             <h2>About</h2>
-        <p>Hello! I am Connor Sweet, a 1B Mechatronics Engineering student at
+        <p>Hello! I am Connor Sweet, a 3A Computer Engineering student at
           the University of Waterloo. I am heavily interested in robotics,
-          Artificial Intelligence, and automation.</p>
-        <p>I am also an avid volunteer in the Waterloo region, currently working
+          Operating systems, and full-stack development.</p>
+        <p>I am also an avid volunteer in the Waterloo region, having worked
            under the Honourable Bardish Chagger to improve the city's ecological
            footprint.</p>
         <p>When I'm not busy, I will often be found producing and performing
-          electronic music, or putting a new idea into code.</p>
-        <p>I will be joining Canadian Tire's Innovation team as a Hardware Developer from January to April 2019.</p>
+          music, or putting a new idea into code.</p>
+        <p>I am currently searching for internship opportunities for the Fall of 2021!</p>
           <h2>Relevant Skills</h2>
-          <p><strong>Languages:</Strong> C++, C, C#, Python, Java, VB.NET, Javascript, SQL, Assembly</p>
-          <p><strong>Software Tools:</Strong> Git, Bash, Node.js, MS Bot Framework, ROS, MS SQL Server, Linux, MATLAB, Vim, Arduino, PLC</p>
-          <p><strong>Design:</Strong> Solidworks, AutoCAD, GD&T</p>
-          <p><strong>Management</Strong> Agile Scrum Development, JIRA</p>
+          <p><strong>Languages:</Strong> C++, C, C#, Java, Javascript, Dart, Python, MATLAB, SQL, Bash, VB.NET, RISC-V, VHDL</p>
+          <p><strong>Software Tools:</Strong> Node.js, MS Bot framework, MS SQL Server, Git, Vim, Arduino, ROS, Linux, PLCs</p>
+          <p><strong>Hardware Design:</Strong> Solidworks, AutoCAD, GD&T, LTSpice</p>
       </div>
       <div class="col-md-6">
         <img src="images/sweet_about.jpg" class="img-responsive">
@@ -134,9 +134,105 @@
     <!--Employment section-->
     <div class="container" id="employment">
       <h2>Employment</h2>
+
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_cooperators.png" class="img-responsive">
+          <img src="images/employment/sweet_mach7.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Developer and Automation Specialist - Mach7 Technologies</h2>
+          <p>My most recent co-op term was with Mach7 Technologies, where I was once again given
+            the opportunity to contribute to the medical field. Here, I attained skill in Dart application
+            development, and created my own Javascript API to conduct performance tests on a clinical viewer.
+          </p>
+            <h4><a href="#hiddenproj0" data-toggle="collapse" id="hide">Click here to
+              learn more</a></h4>
+          <div id="hiddenproj0" class="collapse">
+            <p>My main goal for this term was to fully develop a Javascript API responsible for 
+              conducting frame rate performance tests on cinematics within an embedded viewer.
+              Through this project, I developed asynchronous functions for sampling frame rates from multiple
+              queried video instances, and wrote parsing utilities to translate the obtained data into results
+              which could be compared to generated baseline documents to catch regressions in performance.
+              I developed performance tests to recognize variance in functionality across multiple configurations of Webassembly,
+              and different render engines.
+            </p>
+            <p>I also contributed to an internal API for DICOM markups, to allow the creation, deletion, and querying of spine labeling markups in specific studies through console commands. These utilities
+              are included in a PostMessage API which is interactable using external windows. Both APIs required testing infrastructure to be constructed as well, using Selenium for automation tasks.
+              Creating the tests for API functionalities included generating anonymized DICOM studies,  proper parsing of responses from each API, and the development of unique tools necessary to validate behaviour.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/employment/sweet_clientoutlook.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Developer and Test Specialist - Client Outlook Inc.</h2>
+          <p>After transferring to Computer Engineering, I was given an extra couple of co-op terms, 
+            which I am proud to have spent at Client Outlook Inc. Here, I have had the opportunity to create my own Dart applications
+            from the ground up, develop PostMessage APIs for a medical viewer, and maintain Maven automation suites to validate viewer performance. 
+          </p>
+          <h4><a href="#hiddenproj1" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj1" class="collapse">
+            <p>In this position, I developed a Dart API for creating and manipulating DICOM markups in a clinical viewer through external applications. 
+              This involved the use of notification handlers, visitor patterns, and PostMessage requests. The API was initially written using ActionScript, and
+              subsequently converted to Dart. With the commands introduced by this internal API, users could create, remove and query a number of unique markups with extreme precision.
+              Extra care went into validation of the utility, given its usage in the medical field by external, third-party applications.</p>
+            <p>I was also tasked with contributing to and maintaining a series of Maven automation suites to run on a nightly basis. This involved using Groovy to script a Jenkins pipeline,
+              and Selenium to conduct the required tests. I developed many utilities for the automation suites, including tools necessary for performing screen layout validations, updating preferences, 
+              and triangulation.</p>
+            <p>At Client Outlook, I contributed to a clinical viewer product in compliance with its PureMVC architecture. When I was not enhancing internal APIs, fixing bugs, or developing additional utilities,
+              I also took part in regression testing prior to each product release.</p>
+            <p>One of my favourite projects I was assigned at Client Outlook was the creation of an external Dart application to control an embedded clinical viewer using PostMessage commands. I was tasked with modeling
+              each component of the application, from conceptualizing the UI using wireframes, to full implementation. The application could distinguish commands from multiple origins, and conduct necessary actions in the
+              embedded viewer.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/employment/sweet_cti.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h2>Hardware Developer - Canadian Tire Innovations</h2>
+          <p>My second work term took me to the Canadian Tire Digital Innovation Lab at the Communitech Hub. 
+            Here, I honed my hardware development skills by building a robotic retail solution to optimize 
+            shelf space and provide fast customer transactions for seasonal items. This position helped me 
+            achieve adeptability in robotics development, through circuit fabrication, memory-efficient programming,
+            and 3D printing.</p>
+          <h4><a href="#hiddenproj2" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenproj2" class="collapse">
+            <p>I worked as part of a small, multidisciplinary team to prototype a product retrieval system.
+              My primary designation, as a hardware developer, was to construct the frame for the machine, and implement
+              a functional gantry system including a programmable robotic arm.</p>
+            <p>I drafted components for many robotic system prototypes, using Solidworks for 3D printed 
+              components and AutoCAD for laser cutting templates. I had the opportunity to get my hands dirty as well, 
+            using a milling machine, miter saw, and table saw for more intricate components. What we could not easily make, 
+            we had to source from local aluminum providers. Sourcing aluminum extrusions, brackets, actuators, and microcontrollers
+            has taught me a great deal about product management and self-reliance.</p>
+            <p>My favourite opporunity from this job was to construct and program a three-dimensional gantry, including a robotic arm 
+              for retrieving products from coordinated locations. The entirety of the system was powered using an Arduino, which I had ported 
+              FreeRTOS onto in order to multitask axial movement. I coded an acceleration profile for each of the gantry rails to ensure that
+              stress on the included motors was minimized. Each gantry rail was controlled through PWM, which, using additional drivers, 
+              could translate the gantry to a precise postion. I was also required to make drastic modifications to the robotic arm's API
+              for precise product retrieval.</p>
+            <p>This job was one of my first experiences with C, and  taught me some fundamentals of concurrency, interrupts, multitasking, and I/O.</p>
+          </div>
+        </div>
+      </div>
+      <div id="accent"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/employment/sweet_cooperators.png" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Robot Process Automation Developer - The Co-operators</h2>
@@ -171,6 +267,8 @@
             thoroughly tested to ensure durability and longevity.</p>
           </div>
         </div>
+        
+
       </div>
       <div id="accent"></div>
     </div>
@@ -184,7 +282,7 @@
       <h2>Projects</h2>
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_robotcmajor.gif" class="img-responsive">
+          <img src="images/projects/sweet_robotcmajor.gif" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>RobotCMajor - Guitar Playing Robot</h2>
@@ -217,7 +315,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_zerorobot.gif" class="img-responsive">
+          <img src="images/projects/sweet_zerorobot.gif" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Line Following Music Player - Zero Robotics Competition</h2>
@@ -240,7 +338,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_frc.gif" class="img-responsive">
+          <img src="images/projects/sweet_frc.gif" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>First Robotics Competition Entry - UW Robot in 3 Days</h2>
@@ -266,7 +364,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_trondays.gif" class="img-responsive">
+          <img src="images/projects/sweet_trondays.gif" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Robot Arm - Tron Days Competition</h2>
@@ -292,7 +390,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_eagleeye.jpg" class="img-responsive">
+          <img src="images/projects/sweet_eagleeye.jpg" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Eagle Eye - EngHack 2018</h2>
@@ -325,7 +423,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_htn.jpg" class="img-responsive">
+          <img src="images/projects/sweet_htn.jpg" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Charity Navigation - Hack the North</h2>
@@ -345,7 +443,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_mediaplayer.jpg" class="img-responsive">
+          <img src="images/projects/sweet_mediaplayer.jpg" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Media Player</h2>
@@ -373,7 +471,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_risk.png" class="img-responsive">
+          <img src="images/projects/sweet_risk.png" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Game of Risk</h2>
@@ -397,7 +495,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_brick.png" class="img-responsive">
+          <img src="images/projects/sweet_brick.png" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Brick Breaker - Arkanoid Clone</h2>
@@ -419,7 +517,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sweet_rover.jpg" class="img-responsive">
+          <img src="images/projects/sweet_rover.jpg" class="img-responsive">
         </div>
         <div class="col-md-6">
           <h2>Mars Rover - University Rover Competition</h2>
@@ -445,23 +543,56 @@
     <div id="accent"></div>
     <div id="accent2"></div>
 
+    <!--Music section-->
+    <div class="container" id="music">
+      <h2>Music</h2>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://open.spotify.com/embed/artist/6guDpYcPZwOGb452Mg4HV4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-md-6">
+          <h2>Music Production</h2>
+          <p>I've been making music my entire life, and my favourite hobby is to produce
+            electronic beats using a variety of instruments, vocals, and effects. To the 
+            left are some of my recent songs!
+          </p>
+          <h4><a href="#hiddenmusic" data-toggle="collapse" id="hide">Click here to
+            learn more</a></h4>
+          <div id="hiddenmusic" class="collapse">
+            <p>Aside from music production, I regularly play piano, guitar, and bass. I have performed live
+              in the tri-state area at music festivals, coffee house shows, and showcases.<p>
+            <p>My most recent musical accomplishment comes with my newest EP. A song of mine, "Cherry Lemonade" has accrued
+              over 57,000 streams on SoundCloud!
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!--Accents-->
+    <div id="accent"></div>
+    <div id="accent2"></div>
+
     <!--Education section-->
     <div class="container" id="education">
       <h2>Education</h2>
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>University of Waterloo</h4>
-          <p>Candidate for Bachelor of Applied Sciences, Class of 2022</p>
-          <p>Enrolled in Honours Mechatronics Engineering, term 1B</p>
+          <p>Candidate for Bachelor of Applied Sciences, Class of 2023</p>
+          <p>Enrolled in Honours Computer Engineering, term 3A</p>
           <h4><a href="#hiddenedu0" data-toggle="collapse"  id="hide">Learn more</a></h4>
           <div id="hiddenedu0" class="collapse">
-            <p>Elected as Mechatronics Class Representative for the 1A term</p>
+            <p>Elected as Mechatronics Engineering Class Representative for the 1A term</p>
             <p>Received certification from hands-on and online machine shop training
               to operate the band saw, drill press, milling machine and lathe</p>
+            <p>Former member of Waterloo BioMechatronics and Robotics teams</p>
           </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <img src="images/sweet_uw.png" class="img-responsive">
+        <img src="images/education/sweet_uw.png" class="img-responsive">
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <h4>Bluevale Collegiate Institute</h4>
@@ -475,7 +606,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <img src="images/sweet_bci.png" class="img-responsive">
+        <img src="images/education/sweet_bci.png" class="img-responsive">
       </div>
     </div>
     </div>
@@ -515,7 +646,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_studentcouncil.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_studentcouncil.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -541,7 +672,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_youthcouncil.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_youthcouncil.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -563,7 +694,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_senate.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_senate.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -612,7 +743,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img src="images/sweet_fedprov.jpg" class="img-responsive">
+            <img src="images/volunteering/sweet_fedprov.jpg" class="img-responsive">
           </div>
         </div>
         <div id="accent"></div>
@@ -627,7 +758,7 @@
             Delegate Award</strong> for my actions.</p>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_modelun.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_modelun.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -646,7 +777,7 @@
             Bluevale Collegiate.</p>
           </div>
           <div class="col-md-6">
-            <img src="images/sweet_civics.jpg" class="img-responsive">
+            <img src="images/volunteering/sweet_civics.jpg" class="img-responsive">
           </div>
         </div>
         <div id="accent"></div>
@@ -662,7 +793,7 @@
             class, buying them lunch, and helping them with homework.</p>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_gophers.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_gophers.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -684,7 +815,7 @@
             songs containing lyrics.</p>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_music.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_music.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
@@ -700,7 +831,7 @@
             Trial Competition.</p>
         </div>
         <div class="col-md-6">
-          <img src="images/sweet_mocktrial.jpg" class="img-responsive">
+          <img src="images/volunteering/sweet_mocktrial.jpg" class="img-responsive">
         </div>
       </div>
       <div id="accent"></div>
