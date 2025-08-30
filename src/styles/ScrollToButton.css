@@ -1,0 +1,15 @@
+.scroll-to-button {
+  width: 60px;
+  aspect-ratio: 1/1;
+  background-color: var(--background-gray);
+  color: var(--text-primary);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: var(--standard-transition);
+}
+
+.scroll-to-button:hover {
+  background-color: var(--text-primary);
+  color: var(--background-dark);
+}

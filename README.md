@@ -1,2 +1,3 @@
-# connorssweet.github.io
-My online portfolio for all of my projects, volunteering and activities.
+# My Portfolio
+
+This is my website, hosted at [connorsweet.ca](https://connorsweet.ca)

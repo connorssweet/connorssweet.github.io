@@ -1,0 +1,55 @@
+.home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out forwards;
+
+}
+
+#home-canvas {
+  position: absolute;
+  top: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--standard-gap-large);
+}
+
+.typed-text-container {
+  height: 3rem;
+}
+
+.typed-text {
+  display: inline-block;
+  border-right: 2px solid var(--text-primary);
+  animation: blink 0.7s step-end infinite;
+  line-height: 2rem;
+  font-size: 2rem;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.home-links {
+  display: flex;
+  gap: var(--standard-gap-small);
+}

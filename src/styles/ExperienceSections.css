@@ -1,0 +1,65 @@
+.experience-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--standard-gap-large);
+  align-items: center;
+}
+
+.experience-item {
+  background-color: var(--background-gray);
+  border-radius: 10px;
+  box-shadow: var(--standard-shadow);
+  width: 100%;
+  max-width: 800px;
+  opacity: 0;
+  transition: var(--standard-transition);
+  color: var(--text-secondary);
+}
+
+.experience-item-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--standard-gap-small);
+}
+
+.experience-item:hover {
+  transform: translateY(-5px); 
+  box-shadow: var(--standard-shadow-hover);
+}
+
+.experience-item h3 {
+  color: var(--text-primary);
+}
+
+.experience-years {
+  margin-bottom: 20px;
+  display: flex;
+  gap: var(--standard-gap-small);
+}
+
+.work-years {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.education-years {
+  align-items: baseline;
+}
+
+.experience-years div:first-child {
+  display: flex;
+  align-items: center; 
+  gap: var(--standard-gap-small); 
+}
+
+.experience-years div:not(:first-child) {
+  padding-left: calc(20px + 0.4rem);
+}
+
+.experience-description {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--standard-gap-small);
+}

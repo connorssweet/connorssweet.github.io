@@ -1,0 +1,27 @@
+[
+  {
+    "school": "University of Waterloo",
+    "years": "2017 - 2023",
+    "degree": "BASc: Honours Computer Engineering",
+    "option": "Artificial Intelligence Option",
+    "description": [
+      "Cumulative average of 83%",
+      "Graduated with Distinction",
+      "Elected Class Academic Representative",
+      "Member of BioMechatronics and Robotics teams"
+    ]
+  },
+  {
+    "school": "Bluevale Collegiate Institute",
+    "years": "2013 - 2017",
+    "degree": "High School Diploma",
+    "option:": "",
+    "description": [
+      "Cumulative average of 96%",
+      "Graduated with Honours",
+      "Established and led several initiatives, including Student Council, Fed Prov, and Mock Trial club",
+      "School nominee for Loran and Schulich Leader Scholarships",
+      "Awarded Grad Club 'Knight of all Knights' award and Lakeshore Village Optimists Club award for school contributions"
+    ]
+  }
+]
