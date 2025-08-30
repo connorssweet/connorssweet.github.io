@@ -46,27 +46,25 @@ const Navbar: React.FC = () => {
     <>
       {isMobile ? (
         <>
-          {
-            <nav className="nav nav-mobile">
-              <button className="hamburger-button" onClick={toggleMenu}>
-                <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
-              </button>
-
-              {isMenuOpen && (
-                <div
-                  className={`dropdown-menu ${isClosing ? 'closing' : 'open'}`}
-                >
-                  {sectionsData.map((section) => (
-                    <Button
-                      label={section.label}
-                      key={section.id}
-                      onClick={() => handleMenuClick(section.id)}
-                    />
-                  ))}
-                </div>
-              )}
-            </nav>
-          }
+          <nav className="nav nav-mobile">
+            <div className="navbar-name">Connor Sweet</div>
+            <button className="hamburger-button" onClick={toggleMenu}>
+              <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+            </button>
+            {isMenuOpen && (
+              <div
+                className={`dropdown-menu ${isClosing ? 'closing' : 'open'}`}
+              >
+                {sectionsData.map((section) => (
+                  <Button
+                    label={section.label}
+                    key={section.id}
+                    onClick={() => handleMenuClick(section.id)}
+                  />
+                ))}
+              </div>
+            )}
+          </nav>
         </>
       ) : (
         <nav className={`nav nav-desktop ${isNavbarVisible ? 'visible' : ''}`}>

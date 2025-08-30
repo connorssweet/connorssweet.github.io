@@ -92,6 +92,15 @@
   border: none;
 }
 
+.navbar-name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15vw;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 
 
 
