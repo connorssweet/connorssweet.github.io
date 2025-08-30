@@ -1,0 +1,43 @@
+{
+  "Languages": [
+    "TypeScript",
+    "JavaScript",
+    "Dart",
+    "Python",
+    "C",
+    "C++",
+    "C#",
+    "MATLAB",
+    "Java",
+    "SQL",
+    "Haskell",
+    "Karel",
+    "RAPID"
+  ],
+  "Tools": [
+    "Git",
+    "PowerShell",
+    "Node.js",
+    "Vue.js",
+    "React",
+    "fp-ts",
+    "Effect",
+    "Jest",
+    "TensorFlow",
+    "NumPy",
+    "ROS",
+    "MS Bot Framework",
+    "Selenium"
+  ],
+  "Hardware": [
+    "RISC-V",
+    "Verilog",
+    "VHDL",
+    "FPGA Development",
+    "PCB Design",
+    "SolidWorks",
+    "AutoCAD",
+    "ROBOGUIDE",
+    "RobotStudio"
+  ]
+}

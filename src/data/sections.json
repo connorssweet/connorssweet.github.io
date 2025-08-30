@@ -1,0 +1,26 @@
+[
+    {
+      "label": "Home",
+      "id": "home"
+    },
+    {
+      "label": "About Me",
+      "id": "about-me"
+    },
+    {
+      "label": "Skills",
+      "id": "skills"
+    },
+    {
+      "label": "Work",
+      "id": "work"
+    },
+    {
+      "label": "Education",
+      "id": "education"
+    },
+    {
+      "label": "Projects",
+      "id": "projects"
+    }
+]

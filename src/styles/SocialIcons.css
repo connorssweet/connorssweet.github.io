@@ -1,0 +1,26 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: var(--standard-gap-large);
+}
+
+.social-icon {
+  color: var(--text-primary);
+  transition: var(--standard-transition);
+}
+
+.social-icon.github:hover {
+  color: #2b3137;
+}
+
+.social-icon.linkedin:hover {
+  color: #0077b5;
+}
+
+.social-icon.email:hover {
+  color: #c71610;
+}
+
+.social-icon.spotify:hover {
+  color: #1ED760;
+}

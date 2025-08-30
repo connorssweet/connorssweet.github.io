@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Lincoln Electric Automation",
+    "role": "Robotics Software Developer",
+    "years": ["Jul 2023 - Present", "Sep 2022 - Dec 2022", "Jan 2022 - Apr 2022"],
+    "description": [
+      "Used Vue, TypeScript, fp-ts, Effect and Babylon.js to build and support a pendant-based robotic welding interface",
+      "Developed a system to author user-taught robot actions as recognizable welding instructions for Fanuc and ABB robots",
+      "Wrote an algorithm to convert the location and orientation of cartesian 3D points into relative frame representations, supporting coordinated motion between a 7 axis robot and an external rotary trunnion",
+      "Created a multi-pass welding solution, leveraging quaternion-based transformations to interpret user-defined torch offsets",
+      "Derived cartesian offsets relative to a path's coordinate frame using recorded positions",
+      "Wrote pure, monadic code under the functional paradigm with fp-ts and Effect to increase determinism, scalability and testability",
+      "Produced a method to support remote cycle execution of welding programs across robots using an operator panel",
+      "Authored a data migration workflow for persistence of programmed weld parameters into revised format to enable welding with crater fill"
+    ]
+  },
+  {
+    "company": "Mach7 Technologies",
+    "role": "Developer and Automation Specialist",
+    "years": ["Jan 2021 - Apr 2021"],
+    "description": [
+      "Created Dart API allowing PostMessage requests through commands sent by external applications",
+      "Developed Javascript API to aggregate performance metrics from onscreen video in a clinical viewer",
+      "Built infrastructure for frame rate performance testing in Java",
+      "Maintained and updated Selenium automation suites over numerous product releases",
+      "Implemented spine label DICOM markup manipulation through console commands in clinical viewer"
+    ]
+  },
+  {
+    "company": "Client Outlook Inc.",
+    "role": "Developer and Test Specialist",
+    "years": ["May 2020 - Aug 2020", "May 2019 - Dec 2019"],
+    "description": [
+      "Implemented PostMessage API functionality for creating and manipulating markups on studies through external applications",
+      "Added utilities to Maven automated test suites to perform screen layout validations",
+      "Developed an external Dart application to control an embedded clinical viewer through PostMessage requests",
+      "Implemented functionality within an internal Javascript API to notify the viewer of requests for actions from external applications",
+      "Contributed to a clinical viewer product in compliance with PureMVC framework to introduce functionality necessary for validation"
+    ]
+  },
+  {
+    "company": "Canadian Tire Corporation, Ltd.",
+    "role": "Hardware Developer",
+    "years": ["Jan 2019 - Apr 2019"],
+    "description": [
+      "Developed memory-efficient C code to optimize control over a robotic, embedded system",
+      "Modified and improved API for microcontroller to interface with robotic arm",
+      "Conceptualized and designed 3D prototype models for a series of robotic systems using SolidWorks"
+    ]
+  },
+  {
+    "company": "Co-operators Group, Ltd.",
+    "role": "Robot Process Automation Developer",
+    "years": ["Apr 2018 - Aug 2018"],
+    "description": [
+      "Created chat-bot using MS Bot Framework in Node that receives XML input to prompt questions and validate user response type",
+      "Coded and deployed web-service for the chat-bot to store user responses in MS SQL",
+      "Developed an API for the web-service to interact with MS SQL",
+      "Wrote VB.NET script to pull information from server and populate internal systems on Guidewire and Oracle frameworks"
+    ]
+  }
+]

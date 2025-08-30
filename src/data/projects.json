@@ -1,0 +1,104 @@
+[
+  {
+        "title": "Shapley Routing Python API",
+        "description": [
+          "Designed and integrated an algorithm to compute exact Shapley values for ride-sharing games, facilitating fair cost allocation among participants",
+          "Developed an efficient method for approximating Shapley values in ride-sharing scenarios with many participants, based on the Appro-O(1) approach by Popescu and Kilby"   
+        ],
+        "image": "/images/projects/sweet_shapley.png",
+        "link": "https://github.com/joshzwiebel/Shapley-Routing"
+      },   
+      {
+        "title": "Indoor GPS Navigation System",
+        "description": [
+          "Designed and developed an assistive mobile application that provides indoor auditory navigation for visually impaired users",
+          "Built a mobile client UI in React Native, optimized for accessibility with screen reader support, text-to-speech integration, high-contrast visuals, and simplified navigation flow",
+          "Implemented building mapping workflow, allowing users to graph rooms, hallways, and points of interest based on uploaded floor plans and GPS coordinates",
+          "Developed a backend server in Django connected to a PostgreSQL database to store maps of multiple buildings with several floors",
+          "Leveraged onboard smartphone accelerometer, GPS, and Bluetooth to estimate user movement and position with under 5m error tolerance",
+          "Implemented and tested LIDAR-based obstacle detection system, providing sub-1 second latency collision alerts with under 1m warning distance",
+          "Designed and prototyped a 3D-printed smartphone mount in SolidWorks to securely house an Arduino and LIDAR sensor"
+        ],
+        "image": "/images/projects/sweet_eyeguide.png",
+        "link": "https://github.com/connorssweet/Capstone"
+      },      
+  {
+        "title": "Autonomous Intake and Climbing Robot",
+        "description": [
+          "Entry for First Robotics' Robot in 3 Days Competition",
+          "Developed software for intake and climbing subsystems in Java, including motor control and behavior logic",
+          "Mapped subsystem controls to a gamepad interface, configuring button and axis inputs for intuitive robot operation",
+          "Contributed to mechanical design and fabrication of an aluminum claw mechanism for climbing and elevation",
+          "Machined components and assembled a winch-powered lifting system for bar-latching and self-hoisting functionality"
+        ],
+        "image": "/images/projects/sweet_frc.gif",
+        "link": "https://github.com/connorssweet/elijah-2018"
+      },
+       {
+        "title": "Line Following Music Player",
+        "description": [
+          "Entry for Zero Robotics Competition",
+          "Designed a line-following robot that plays musical notes based on line shading",
+          "Focused on electrical system design, fabricating a custom circuit layout on an aluminum chassis for balanced weight distribution",
+          "Built and wired an Arduino-powered circuit, integrating an R-2R digital-to-analog converter to generate musical tones",
+          "Implemented motor control circuitry for real-time line following using a color sensor to interpret line shading"
+        ],
+        "image": "/images/projects/sweet_zerorobot.gif"
+      },
+      {
+        "title": "Home Security Monitoring System",
+        "description": [
+          "Entry for EngHack Competition",
+          "Developed a portable Arduino-powered sensor box to detect audio and motion events for home security",
+          "Wired and assembled hardware components including motion sensors and microphones for real-time monitoring",
+          "Programmed the Arduino to serialize sensor data and transmit it to a user's computer for processing",
+          "Built a Processing script to receive sensor data and feed it into a web interface for user alerts and monitoring",
+          "Contributed to a machine learning script for analyzing captured audio and identifying user intent, including detection of politically charged language"
+        ],
+        "image": "/images/projects/sweet_eagleeye.jpg",
+        "link": "https://github.com/connorssweet/Enghack2018"
+      },
+      {
+        "title": "UW Mars Rover Team",
+        "description": [
+          "Entry for University Rover Challenge",
+          "Developed autonomous path-finding algorithms using Python and ROS for desert navigation",
+          "Integrated computer vision and GPS data to locate and recover objects with relative positioning",
+          "Built and tested real-time autonomy systems for GPS-guided search and retrieval tasks"
+        ],
+        "image": "/images/projects/sweet_rover.jpg"
+      },
+      {
+        "title": "Guitar Playing Robot",
+        "description": [
+          "Designed, built, and programmed a robot that plays power chords on an acoustic guitar",
+          "Used multithreaded programming to optimize play timing and sound clarity",
+          "Wrote driver tasks to test functionality and improve code reliability and efficiency",
+          "Constructed the robot chassis, including a strumming arm and a 3-axis gantry system for fret positioning",
+          "Successfully performed \"Smoke on the Water\" and \"Free Fallin'\", with clearly recognizable playback"
+        ],
+        "image": "/images/projects/sweet_robotcmajor.gif",
+        "link": "https://github.com/connorssweet/RobotCMajor"
+      },
+      {
+        "title": "Pick and Place Robot Arm",
+        "description": [
+          "Entry for Mechatronics Competition",
+          "Engineered a remote-controlled robotic arm to move objects across a pegboard, achieving 90% in design and efficiency scoring",
+          "Designed and implemented a pulley-assisted elevation system to counterbalance the weight of the final arm segment",
+          "Developed a C++ control program to optimize arm joint angles and positioning for maximum speed and reach"
+        ],
+        "image": "/images/projects/sweet_trondays.gif",
+        "link": "https://github.com/connorssweet/Tron-Days-Optimizer"
+      },
+      {
+        "title": "Charity Recommendation Platform",
+        "description": [
+          "Entry for Hack the North",
+          "Led back-end development, focusing on data integration and API communication",
+          "Built a dynamic data system using the Google Firebase API to manage charity information",
+          "Integrated the Twitter API to analyze trending topics and align them with relevant charitable foundations"
+        ],
+        "image": "/images/projects/sweet_htn.jpg"
+      }
+    ]
