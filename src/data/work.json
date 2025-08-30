@@ -2,7 +2,7 @@
   {
     "company": "Lincoln Electric Automation",
     "role": "Robotics Software Developer",
-    "years": ["Jul 2023 - Present", "Sep 2022 - Dec 2022", "Jan 2022 - Apr 2022"],
+    "years": ["Jul 2023 - Present", "Sep 2022 - Dec 2022 (Co-op)", "Jan 2022 - Apr 2022 (Co-op)"],
     "description": [
       "Used Vue, TypeScript, fp-ts, Effect and Babylon.js to build and support a pendant-based robotic welding interface",
       "Developed a system to author user-taught robot actions as recognizable welding instructions for Fanuc and ABB robots",
@@ -17,7 +17,7 @@
   {
     "company": "Mach7 Technologies",
     "role": "Developer and Automation Specialist",
-    "years": ["Jan 2021 - Apr 2021"],
+    "years": ["Jan 2021 - Apr 2021 (Co-op)"],
     "description": [
       "Created Dart API allowing PostMessage requests through commands sent by external applications",
       "Developed Javascript API to aggregate performance metrics from onscreen video in a clinical viewer",
@@ -29,7 +29,7 @@
   {
     "company": "Client Outlook Inc.",
     "role": "Developer and Test Specialist",
-    "years": ["May 2020 - Aug 2020", "May 2019 - Dec 2019"],
+    "years": ["May 2020 - Aug 2020 (Co-op)", "May 2019 - Dec 2019 (Co-op)"],
     "description": [
       "Implemented PostMessage API functionality for creating and manipulating markups on studies through external applications",
       "Added utilities to Maven automated test suites to perform screen layout validations",
@@ -41,7 +41,7 @@
   {
     "company": "Canadian Tire Corporation, Ltd.",
     "role": "Hardware Developer",
-    "years": ["Jan 2019 - Apr 2019"],
+    "years": ["Jan 2019 - Apr 2019 (Co-op)"],
     "description": [
       "Developed memory-efficient C code to optimize control over a robotic, embedded system",
       "Modified and improved API for microcontroller to interface with robotic arm",
@@ -51,7 +51,7 @@
   {
     "company": "Co-operators Group, Ltd.",
     "role": "Robot Process Automation Developer",
-    "years": ["Apr 2018 - Aug 2018"],
+    "years": ["Apr 2018 - Aug 2018 (Co-op)"],
     "description": [
       "Created chat-bot using MS Bot Framework in Node that receives XML input to prompt questions and validate user response type",
       "Coded and deployed web-service for the chat-bot to store user responses in MS SQL",
