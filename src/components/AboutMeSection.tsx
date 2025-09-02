@@ -6,7 +6,7 @@ import Section from './Section';
 
 const AboutMeSection: React.FC = () => {
   const handleResumeClick = () => {
-    window.open('/sweet_resume.pdf', '_blank');
+    window.open('/connor_sweet_resume.pdf', '_blank');
   };
 
   return (
