@@ -1,4 +1,14 @@
 [
+    {
+        "title": "Spotify Album Rater",
+        "description": [
+          "Built a full-stack Flask web application that allows users to search, rate, and review music albums by integrating the Spotify Web API via spotipy",
+          "Designed relational data models and full CRUD functionality for albums and ratings with form validation",
+          "Implemented secure authentication and admin moderation using Flask-Login and SQLAlchemy"
+        ],
+        "image": "/images/projects/sweet_spotifyalbumrater.png",
+        "link": "https://github.com/connorssweet/SpotifyRater"
+      },   
   {
         "title": "Shapley Routing Python API",
         "description": [

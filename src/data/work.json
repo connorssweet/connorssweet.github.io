@@ -1,8 +1,16 @@
 [
   {
+    "company": "ParkCo",
+    "role": "Full-Stack Software Developer",
+    "years": ["Feb 2026 - Present"],
+    "description": [
+      "TBD"
+    ]
+  },
+  {
     "company": "Lincoln Electric Automation",
     "role": "Robotics Software Developer",
-    "years": ["Jul 2023 - Present", "Sep 2022 - Dec 2022 (Co-op)", "Jan 2022 - Apr 2022 (Co-op)"],
+    "years": ["Jul 2023 - Jan 2026", "Sep 2022 - Dec 2022 (Co-op)", "Jan 2022 - Apr 2022 (Co-op)"],
     "description": [
       "Used Vue, TypeScript, fp-ts, Effect and Babylon.js to build and support a pendant-based robotic welding interface",
       "Developed a system to author user-taught robot actions as recognizable welding instructions for Fanuc and ABB robots",
