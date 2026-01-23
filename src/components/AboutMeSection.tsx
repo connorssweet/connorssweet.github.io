@@ -13,7 +13,7 @@ const AboutMeSection: React.FC = () => {
     <Section id="about-me" className="about-me" title="About Me">
       <div className="about-me-content">
         <div className="profile-picture">
-          <img src="/images/sweet_about.jpg" alt="Me" />
+          <img src="/images/sweet_about.png" alt="Me" />
           <SocialIcons />
         </div>
         <div>
