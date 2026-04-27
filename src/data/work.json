@@ -4,7 +4,10 @@
     "role": "Full-Stack Software Developer",
     "years": ["Feb 2026 - Present"],
     "description": [
-      "TBD"
+      "Built a Node.js integration with third-party parking enforcement systems using SOAP/XML workflows to synchronize transaction data across distributed services",
+      "Developed a Python proof-of-concept for a Raspberry Pi-based edge controller that abstracted hardware interfaces, prioritized real-time operational tasks through queue scheduling, and improved reliability through explicit error modeling",
+      "Supported cloud deployments and production infrastructure using Docker and AWS (ECS, ECR, CloudWatch), including service rollbacks, environment configuration, and release troubleshooting",
+      "Improved backend reliability by implementing API fixes across payment, permissions, and bulk-upload workflows, including redesigning error handling to replace unhandled failures with structured responses"
     ]
   },
   {

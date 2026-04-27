@@ -23,7 +23,7 @@ const SocialIcons: React.FC = () => {
       <a href="mailto:connor.s.sweet@gmail.com" className="social-icon email">
         <i className="fas fa-envelope"></i>
       </a>
-      <a
+      {/* <a
         href="https://open.spotify.com/artist/6guDpYcPZwOGb452Mg4HV4"
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const SocialIcons: React.FC = () => {
         className="social-icon spotify"
       >
         <i className="fab fa-spotify"></i>
-      </a>
+      </a> */}
     </div>
   );
 };

@@ -2,42 +2,27 @@
   "Languages": [
     "TypeScript",
     "JavaScript",
-    "Dart",
     "Python",
     "C",
     "C++",
-    "C#",
-    "MATLAB",
     "Java",
-    "SQL",
-    "Haskell",
-    "Karel",
-    "RAPID"
+    "Dart"
   ],
-  "Tools": [
-    "Git",
-    "PowerShell",
+  "Frameworks & Platforms": [
     "Node.js",
+    "Express",
     "Vue.js",
     "React",
-    "fp-ts",
-    "Effect",
-    "Jest",
-    "TensorFlow",
-    "NumPy",
-    "ROS",
-    "MS Bot Framework",
-    "Selenium"
+    "Docker",
+    "AWS",
+    "MongoDB",
+    "PostgreSQL"
   ],
-  "Hardware": [
-    "RISC-V",
-    "Verilog",
-    "VHDL",
-    "FPGA Development",
-    "PCB Design",
-    "SolidWorks",
-    "AutoCAD",
+  "Robotics & Systems": [
+    "Raspberry Pi",
+    "Babylon.js",
+    "RobotStudio",
     "ROBOGUIDE",
-    "RobotStudio"
+    "RAPID"
   ]
 }
